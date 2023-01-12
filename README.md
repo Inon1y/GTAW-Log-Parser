@@ -5,4 +5,4 @@
 
 ## 开始使用
 
-无需安装。只需下载最新的 [版本] (https://gitee.com/Ciscaux/GTAWCN-Log-Parser/releases) 并运行可执行文件。
+无需安装。只需下载最新的 [版本] (https://github.com/Inon1y/GTAW-Log-Parser/releases) 并运行可执行文件。
