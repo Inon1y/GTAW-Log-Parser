@@ -1,0 +1,42 @@
+﻿<Controls:MetroWindow x:Name="BackupSettings" x:Class="Assistant.UI.BackupSettingsWindow"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:local="clr-namespace:Assistant.UI"
+                      mc:Ignorable="d"
+                      WindowStartupLocation="Manual"
+                      ResizeMode="NoResize"
+                      Closing="BackupSettings_Closing"
+                      WindowTransitionsEnabled="True"
+                      BorderThickness="0" 
+                      GlowBrush="Black"
+                      Title="自动备份设置" Height="305.994" Width="476" ShowInTaskbar="True" IsMaxRestoreButtonEnabled="False" IsMinButtonEnabled="False" TitleCaps="False" ShowIconOnTitleBar="False" Icon="../Resources/AppIcon.ico">
+
+    <Controls:MetroWindow.WindowButtonCommands>
+        <Controls:WindowButtonCommands 
+                                       LightCloseButtonStyle="{StaticResource MahApps.Metro.Styles.WindowButton.Close.Light.Win10}"
+                                       DarkCloseButtonStyle="{StaticResource MahApps.Metro.Styles.WindowButton.Close.Dark.Win10}"/>
+    </Controls:MetroWindow.WindowButtonCommands>
+
+    <Grid>
+        <Label x:Name="BackupPathLabel" Content="备份目录:" HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top" Width="455"/>
+        <TextBox x:Name="BackupPath" MouseLeftButtonUp="BackupPath_MouseLeftButtonUp" TextChanged="BackupPath_TextChanged" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" IsReadOnly="True" VerticalScrollBarVisibility="Disabled"/>
+        <Button x:Name="Browse" Click="Browse_Click" Content="浏览" HorizontalAlignment="Left" Margin="385,36,0,0" VerticalAlignment="Top" Width="75"/>
+        <CheckBox x:Name="BackUpChatLogAutomatically" Checked="BackUpChatLogAutomatically_CheckedChanged" Unchecked="BackUpChatLogAutomatically_CheckedChanged" Content="自动解析和备份聊天记录(当游戏关闭时)。" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="450"/>
+        <CheckBox x:Name="EnableIntervalBackup" Checked="EnableIntervalBackup_CheckedChanged" Unchecked="EnableIntervalBackup_CheckedChanged" Content="在游戏运行时自动备份聊天记录(每10分钟一次)。" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
+        <Label x:Name="IntervalLabel1" Content="每隔一段时间备份聊天记录" HorizontalAlignment="Left" Margin="5,114,0,0" VerticalAlignment="Top" Width="132"/>
+        <xctk:IntegerUpDown ValueChanged="Interval_ValueChanged" TextAlignment="Center" x:Name="Interval" Margin="138,116,0,0" Maximum="60" Minimum="1" Value="10" Text="10" IsEnabled="False" HorizontalAlignment="Left" Width="45" Height="26" VerticalAlignment="Top" />
+        <Label x:Name="IntervalLabel2" Content="分钟(推荐)" HorizontalAlignment="Left" Margin="189,114,0,0" VerticalAlignment="Top" Width="271"/>
+        <CheckBox x:Name="RemoveTimestamps" Content="从备份中删除时间戳" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
+        <CheckBox x:Name="SuppressNotifications" Content="抑制成功备份通知" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
+        <CheckBox x:Name="AlwaysCloseToTray" Content="始终靠近系统托盘" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" Width="290" IsEnabled="False"/>
+        <CheckBox x:Name="StartWithWindows" Checked="StartWithWindows_CheckedChanged" Unchecked="StartWithWindows_CheckedChanged" Content="从Windows开始(最小化)。" HorizontalAlignment="Left" Margin="10,237,0,0" VerticalAlignment="Top" Width="290" IsEnabled="False"/>
+
+        <Button x:Name="CloseWindow" Click="CloseWindow_Click" Content="关闭" HorizontalAlignment="Left" Margin="385,233,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Reset" Click="Reset_Click" Content="重置" HorizontalAlignment="Left" Margin="305,233,0,0" VerticalAlignment="Top" Width="75"/>
+        <CheckBox x:Name="WarnWithHash" Content="当同一聊天记录被保存2次或更多次时发出警告" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
+    </Grid>
+</Controls:MetroWindow>

@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>GTA:WORLD中国社区聊天日志解析助手 编辑：Ciscaux 
+已安装版本: {0} {1}
+目录: {2}</value>
+  </data>
+  <data name="AdvancedFilter" xml:space="preserve">
+    <value>高级过滤器</value>
+  </data>
+  <data name="AlreadyExistingDirectoriesWarning" xml:space="preserve">
+    <value>因为 "{0}" 目录已经存在。</value>
+  </data>
+  <data name="AutoStartDisableError" xml:space="preserve">
+    <value>在试图禁用自动启动功能时发生了一个错误。</value>
+  </data>
+  <data name="AutoStartEnableError" xml:space="preserve">
+    <value>在试图启用自动启动功能时发生了一个错误。</value>
+  </data>
+  <data name="AutoStartWarning" xml:space="preserve">
+    <value>如果你删除或将分析器移到不同的位置，这个功能将停止工作。</value>
+  </data>
+  <data name="BackupError" xml:space="preserve">
+    <value>在试图自动保存聊天记录时发生了错误。
+
+请确保你选择了一个非系统的目录作为你的备份路径。</value>
+  </data>
+  <data name="BackupMoveError" xml:space="preserve">
+    <value>在将备份文件转移到新目录时发生了错误。</value>
+  </data>
+  <data name="BackupStatus" xml:space="preserve">
+    <value>自动备份: {0}</value>
+  </data>
+  <data name="BackupTurnedOff" xml:space="preserve">
+    <value>自动备份已被关闭，如果你想使用它，请重新设置。</value>
+  </data>
+  <data name="BackupWillBeOff" xml:space="preserve">
+    <value>当设置对话框打开时，自动备份功能将被关闭，只有当您关闭设置对话框时，新的设置才会被应用。
+
+您想继续吗？</value>
+  </data>
+  <data name="BadBackupPath" xml:space="preserve">
+    <value>请选择一个非根目录作为你的备份目录位置。</value>
+  </data>
+  <data name="BadBackupPathSave" xml:space="preserve">
+    <value>请选择一个有效的备份位置或关闭自动备份。</value>
+  </data>
+  <data name="BadDirectoryPath" xml:space="preserve">
+    <value>请为你的RAGEMP目录位置选择一个非根目录。</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="BetaShort" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="CharacterCounter" xml:space="preserve">
+    <value>{0} 个字符和{1} 行</value>
+  </data>
+  <data name="CurrentTime" xml:space="preserve">
+    <value>当前时间: {0}</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="FacebrowserLink" xml:space="preserve">
+    <value>https://face.gta-world.cn/</value>
+  </data>
+  <data name="FeatureShowcaseLink" xml:space="preserve">
+    <value>https://forum.gta-world.cn/</value>
+  </data>
+  <data name="FileDeleteError" xml:space="preserve">
+    <value>在试图删除该文件时发生了错误。</value>
+  </data>
+  <data name="FilterHint" xml:space="preserve">
+    <value>如果您想过滤您的聊天记录，每行只能有一个单词、数字或有效名称对。
+例如：船，500美元，约翰，无名氏或John_Doe</value>
+  </data>
+  <data name="FilterHintNoMatches" xml:space="preserve">
+    <value>没有找到匹配的。
+
+请确保每行只有一个单词、数字或有效的名称对。
+例如：船，500美元，约翰，无名氏或John_Doe</value>
+  </data>
+  <data name="FilterHintSkipped" xml:space="preserve">
+    <value>在过滤操作中跳过了一个或多个字，因为它们不是有效的格式。
+
+请确保每行只有一个单词、数字或有效的名称对。
+例如：船，500美元，约翰，无名氏或John_Doe</value>
+  </data>
+  <data name="FilterLogStatus" xml:space="preserve">
+    <value>聊天记录{0} 加载{1}</value>
+  </data>
+  <data name="FilterReadError" xml:space="preserve">
+    <value>读取所选文件时发生了一个错误。</value>
+  </data>
+  <data name="DirectoryFinder" xml:space="preserve">
+    <value>自动发现你的RAGEMP目录在 {0}
+
+如果这不正确或你有多个RAGEMP安装，请手动浏览正确的路径。</value>
+  </data>
+  <data name="DirectoryFinderError" xml:space="preserve">
+    <value>在试图自动查找你的RAGEMP目录位置时发生了错误，请手动浏览。</value>
+  </data>
+  <data name="DirectoryFinderNotFound" xml:space="preserve">
+    <value>无法检测到你的RAGEMP目录的路径，请手动寻找目录。</value>
+  </data>
+  <data name="DirectoryFinderTitle" xml:space="preserve">
+    <value>信息(首次启动)</value>
+  </data>
+  <data name="ForumsLink" xml:space="preserve">
+    <value>https://forum.gta-world.cn/</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="IntervalHint" xml:space="preserve">
+    <value>在游戏运行时自动备份聊天记录 (每{0}{1})</value>
+  </data>
+  <data name="IntervalRecommended" xml:space="preserve">
+    <value>{0}(推荐)</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>无效的RAGEMP目录路径。</value>
+  </data>
+  <data name="InvalidDirectoryPathBackup" xml:space="preserve">
+    <value>在尝试启用自动备份之前，请选择一个有效的RAGEMP目录位置。</value>
+  </data>
+  <data name="InvalidDirectoryPathFilter" xml:space="preserve">
+    <value>在尝试过滤您的聊天记录之前，请选择一个有效的RAGEMP目录位置。</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LanguageInfo" xml:space="preserve">
+    <value>所选语言将用于从正确的服务器提取聊天记录。
+
+这意味着，如果您选择了中文，您将只能解析从中文服务器上生成的聊天记录。如果您想解析其他聊天记录，您将需要改变应用程序的语言。</value>
+  </data>
+  <data name="LoadedAt" xml:space="preserve">
+    <value> 于{0}</value>
+  </data>
+  <data name="MainIP" xml:space="preserve">
+    <value>45.125.44.121_22005</value>
+  </data>
+  <data name="MinimizeInsteadOfClose" xml:space="preserve">
+    <value>关闭解析器将阻止自动备份的发生。
+
+你想把分析器最小化到系统托盘中吗？</value>
+  </data>
+  <data name="MinutePlural" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="MinuteSingular" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="MoveBackups" xml:space="preserve">
+    <value>你想把你现有的所有备份文件移到新的目录中吗？</value>
+  </data>
+  <data name="MultipleChatLogs" xml:space="preserve">
+    <value>发现有多个GTA:WORLD的资源目录。建议你使用一个IP连接到服务器并删除其他资源目录。
+
+保留其中一个 "{0}" 或 "{1}".</value>
+  </data>
+  <data name="Negation" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="NoChatLog" xml:space="preserve">
+    <value>找不到GTA:WORLD的聊天记录。</value>
+  </data>
+  <data name="NoChatLogLoaded" xml:space="preserve">
+    <value>你还没有加载聊天记录。</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>找不到更新。
+尝试检查您的互联网连接或在设置窗口中增加更新检查超时。
+
+已安装的版本: {0}</value>
+  </data>
+  <data name="NothingFiltered" xml:space="preserve">
+    <value>你还没有过滤任何东西。</value>
+  </data>
+  <data name="NothingMovedWarning" xml:space="preserve">
+    <value>没有移动任何目录到新的位置</value>
+  </data>
+  <data name="NothingParsed" xml:space="preserve">
+    <value>你还没有解析出任何东西。</value>
+  </data>
+  <data name="NoWordsToFilter" xml:space="preserve">
+    <value>你还没有输入任何要过滤的词。
+
+如果你不想过滤单词，请使用简易过滤器。</value>
+  </data>
+  <data name="OldChatLog" xml:space="preserve">
+    <value>在解析聊天记录时检测到一种旧格式，建议你删除它和所有其他没有正确更新的脚本。
+
+你想删除这些文件吗？
+(在删除前会对聊天记录文件进行解析)</value>
+  </data>
+  <data name="OpenDocumentation" xml:space="preserve">
+    <value>你想打开在GTA:World论坛上找到的聊天记录解析器的文档页面吗？</value>
+  </data>
+  <data name="OtherInstanceRunning" xml:space="preserve">
+    <value>另一个应用已经在运行，检查你的任务栏或任务管理器。</value>
+  </data>
+  <data name="ParseError" xml:space="preserve">
+    <value>在解析聊天记录时发生错误。</value>
+  </data>
+  <data name="PartialMoveWarning" xml:space="preserve">
+    <value>只将 "{0}" 目录移至新的位置</value>
+  </data>
+  <data name="ProjectLink" xml:space="preserve">
+    <value>https://gitee.com/Ciscaux/GTAWCN-Log-Parser</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>问题</value>
+  </data>
+  <data name="ReleasesLink" xml:space="preserve">
+    <value>https://gitee.com/Ciscaux/GTAWCN-Log-Parser/releases</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>重启</value>
+  </data>
+  <data name="RunningLatest" xml:space="preserve">
+    <value>您正在运行最新版本的聊天记录解析器。
+
+安装的版本: {0}</value>
+  </data>
+  <data name="SameHashWarning" xml:space="preserve">
+    <value>同一聊天记录被备份了 {0} 次或更多，这意味着负责记录您的聊天记录的Ragemp客户端脚本已经损坏。
+
+这种情况在你失去网络连接或服务器崩溃时发生。唯一已知的解决方法是删除你所玩的服务器的资源目录。
+
+丢失的聊天记录是无法恢复的。</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>在试图保存文件时发生了一个错误。</value>
+  </data>
+  <data name="SecondaryIP" xml:space="preserve">
+    <value>play.gta-world.cn_22005</value>
+  </data>
+  <data name="SecondPlural" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="SecondSingular" xml:space="preserve">
+    <value>第二</value>
+  </data>
+  <data name="SettingsAfterClose" xml:space="preserve">
+    <value>只有在你关闭设置对话框后，设置才会被应用。</value>
+  </data>
+  <data name="SimpleFilter" xml:space="preserve">
+    <value>简易过滤</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="SuccessfulBackup" xml:space="preserve">
+    <value>成功解析并备份了聊天记录至 {0}</value>
+  </data>
+  <data name="SwitchServer" xml:space="preserve">
+    <value>解析器需要重新启动，以便切换到选定的服务器。
+
+你想现在就应用这些变化并重新启动应用程序吗？</value>
+  </data>
+  <data name="UCPLink" xml:space="preserve">
+    <value>https://ucp.gta-world.cn/</value>
+  </data>
+  <data name="UpdateAbortTime" xml:space="preserve">
+    <value>{0}.</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>聊天记录解析器的新版本现在可以在Gitee上使用。安装版本: {0}
+可用版本: {1}
+
+你想现在访问发布页面吗？</value>
+  </data>
+  <data name="UpdateAvailableTitle" xml:space="preserve">
+    <value>可用的更新</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+</root>
