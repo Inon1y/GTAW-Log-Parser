@@ -13,7 +13,7 @@ The NuGet package dependencies must be restored before compiling the project.
 
 ## Contributing
 
-1. Fork Project (<https://github.com/your_name/GTAW-Log-Parser>)
+1. Fork Project (<https://github.com/Inonly/GTAW-Log-Parser>)
 2. Create Branch (`git checkout -b branch_name`)
 3. Commit (`git commit -am "Add feature_name"`)
 4. Push (`git push origin branch_name`)
